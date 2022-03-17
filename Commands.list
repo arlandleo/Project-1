@@ -13,3 +13,13 @@ git push --set -upstream origin Alpha
 download this: msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2-2.0.30.msi
 
 Verify the installation : aws --version 
+
+
+#Commands to create , rm to list S3 bucket and EC2 
+
+aws s3 mb s3://alpha
+aws s3 rb s3://alpha --force 
+aws s3 ls 
+
+- EC2
+aws ec2 run-instances --image-id ami-xxxxxxxx --count 1 --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-903004f8 --subnet-id subnet-6e7f829e
