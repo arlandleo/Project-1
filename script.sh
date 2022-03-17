@@ -2,23 +2,19 @@
 
 # This is a script to list number lower and greater than 8
 
-VAR=8
-echo "the value is $VAR "
+echo " Enter a number "
+read num
+list_object=[ "positive numbers","negative numbers" ]
 
-if [ "$VAR" -gt 1 ] 
+
+if [ $num -gt 1 ] 
 then
-   
-   echo  "if [ "$VAR" -lt 10 ]"
-    then   
-            echo " $2,$3,$4,$5,$6,$7,$8,$9 "
-         else  
-             echo " $8 "
-        fi 
      
-
-elif [ "$VAR" -lt 1 ]
+   echo " postive numbers "
+        
+elif [ $num -lt 1 ]
 then  
-    echo " $-1,$-2,$-3,$-4,$-5,$-6,$-7,$-8 "
+    echo " negative numbers "
 else 
     echo " Invalid Number"
 
