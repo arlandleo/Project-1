@@ -13,3 +13,13 @@ git push --set -upstream origin Alpha
 download this: msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2-2.0.30.msi
 
 Verify the installation : aws --version 
+
+....................................................
+
+# HOW TO SETUP THE CONFIG-FILE IN ORDER TO SSH INTO SERVER IN
+      VSCODE
+
+Host (The name server )
+     HostName ( IP address of that server)
+     User (server type like ec2-user)
+     IdentifyFile  ( KeyPair Path )
