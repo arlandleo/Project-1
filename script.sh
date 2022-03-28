@@ -10,11 +10,11 @@ list_object=[ "positive numbers","negative numbers" ]
 if [ $num -gt 1 ] 
 then
      
-   echo " postive numbers "
+   echo " postive numbers@number "
         
 elif [ $num -lt 1 ]
 then  
-    echo " negative numbers "
+    echo " negative numbers@nmber"
 else 
     echo " Invalid Number"
 
