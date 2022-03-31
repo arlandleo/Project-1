@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 # This is a script to list number lower and greater than 7
 
 VAR= 7
@@ -21,3 +22,24 @@ else
 
 # fi
     
+=======
+# This is a script to list number lower and greater than 8
+
+echo " Enter a number "
+read num
+list_object=[ "positive numbers","negative numbers" ]
+
+
+if [ $num -gt 1 ] 
+then
+     
+   echo " postive numbers "
+        
+elif [ $num -lt 1 ]
+then  
+    echo " negative numbers "
+else 
+    echo " Invalid Number"
+
+fi  
+>>>>>>> 63d2c09dac185061a2c80f7841f410090dc18dfe
